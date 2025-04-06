@@ -8,7 +8,7 @@ public class Example6 {
         {
             for(int j=1; j<=n; j++)
             {
-                System.out.print("*");
+                System.out.print("8");
             }
             System.out.println();
         }
