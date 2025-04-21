@@ -6,12 +6,10 @@ public class InputSubArray {
         
     
     Scanner sc = new Scanner(System.in);
-    System.err.print("Enter size of row: ");
+
     int n = sc.nextInt();
-    System.err.print("Enter size of Column: ");
     int m = sc.nextInt();
 
-    
     int arr[][] = new int[n][m];
 
     for(int i=0; i<n; i++)//row
