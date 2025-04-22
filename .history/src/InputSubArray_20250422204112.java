@@ -8,7 +8,7 @@ public class InputSubArray {
     Scanner sc = new Scanner(System.in);
     System.out.print("Enter size of row: ");
     int n = sc.nextInt();
-    System.out.print("Enter size of Column: ");
+    System.err.print("Enter size of Column: ");
     int m = sc.nextInt();
 
 
@@ -28,9 +28,9 @@ public class InputSubArray {
     {
         for(int j=0; j<m; j++)//colum
         {
-            System.out.print(arr[i][j]);
+            System.err.print(arr[i][j]);
         }
-        System.out.println();
+        System.err.println();
     }
   }
 }

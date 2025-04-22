@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
-public class InputSubArray {
-
-    public static void main(String[] args) {
+public class print2DAarayColumnWise {
+     public static void main(String[] args) {
         
     
     Scanner sc = new Scanner(System.in);
@@ -24,9 +23,9 @@ public class InputSubArray {
 
 
     //print subarray
-    for(int i=0; i<n; i++)//row
+    for(int j=0; j<m; j++)//Column
     {
-        for(int j=0; j<m; j++)//colum
+        for(int i=0; i<n; i++)//row
         {
             System.out.print(arr[i][j]);
         }
