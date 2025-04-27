@@ -11,7 +11,7 @@ public class PrintMatrixDigonally {
         while(R >= 0 && C < col)
         {
 
-            System.out.print(arr[R][C] + " ");
+            System.out.print(arr[R][C]);
 
             R--;
             C++;

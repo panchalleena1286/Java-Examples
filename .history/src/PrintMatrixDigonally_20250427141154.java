@@ -7,11 +7,9 @@ public class PrintMatrixDigonally {
         //row decrease
         //column increase
 
-        
         while(R >= 0 && C < col)
         {
-
-            System.out.print(arr[R][C] + " ");
+            System.out.print(arr[R][C]);
 
             R--;
             C++;
@@ -23,14 +21,11 @@ public class PrintMatrixDigonally {
         
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter the size of row : ");
         int row = sc.nextInt();
-        System.out.println("Enter the size of Columns : ");
         int col = sc.nextInt();
 
         int arr[][] = new int[row][col];
 
-        System.out.println("Enter Elements of matrix : ");
         //Insert elemnets into 2D array
         for(int i=0; i<row; i++){
             for(int j=0; j<col; j++)
@@ -40,7 +35,6 @@ public class PrintMatrixDigonally {
         }
 
         //Step 1st - Rows Starting points
-        System.out.println("Digonally Print Matrix is : ");
 
         for(int i=0; i<row; i++)
         {
@@ -56,7 +50,7 @@ public class PrintMatrixDigonally {
         {
             int R = row - 1;
             int C = j;
-
+            
             move(R, C, arr, col);
 
         }

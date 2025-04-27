@@ -7,11 +7,11 @@ public class PrintMatrixDigonally {
         //row decrease
         //column increase
 
-        
+        System.out.println("Digonally Print Matrix is : ");
         while(R >= 0 && C < col)
         {
 
-            System.out.print(arr[R][C] + " ");
+            System.out.print(arr[R][C]);
 
             R--;
             C++;
@@ -40,7 +40,6 @@ public class PrintMatrixDigonally {
         }
 
         //Step 1st - Rows Starting points
-        System.out.println("Digonally Print Matrix is : ");
 
         for(int i=0; i<row; i++)
         {
