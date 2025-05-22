@@ -9,8 +9,6 @@ public class ExampleOnString2 {
         System.out.println(str);
 
         //to enter single character
-        char s = sc.next().charAt(1);
-        System.out.println(s);
 
 
     }
