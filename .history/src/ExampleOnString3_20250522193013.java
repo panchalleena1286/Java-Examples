@@ -7,7 +7,6 @@ public class ExampleOnString3 {
 
         String s = sc.next();
 
-        System.out.println(s);
         System.out.println(s.length());
     }
 }
