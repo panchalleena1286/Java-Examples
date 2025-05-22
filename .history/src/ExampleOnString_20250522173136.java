@@ -5,7 +5,5 @@ public class ExampleOnString {
         Scanner sc = new Scanner(System.in);
 
         String s = sc.next();
-
-        System.out.println(s);
     }
 }
