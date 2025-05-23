@@ -29,12 +29,9 @@ public class ExampleOnString8 {
 
         String w = sc.next();
 
-        for(int i=0; i<s.length()-1; i++)//starting point
+        for(int i=0; i<s.length()-1; i++)
         {
-            if(match(s, w, i) == true)
-            {
-                System.out.print(i + " ");
-            }
+            if(s.)
         }
 
     }
