@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-
-//compare two string
 class ExampleOnString6 {
     
     public static void main(String[] args) {

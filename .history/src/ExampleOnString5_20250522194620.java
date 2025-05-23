@@ -13,9 +13,5 @@ public class ExampleOnString5 {
         System.out.println(s);
 
         System.out.println(s.concat(b));
-
-        System.out.println(s + b);
-
-        System.out.println(s.substring(1, 4));
     }
 }
