@@ -1,0 +1,24 @@
+class Student {
+    int marks;
+    String name;
+
+    Student(){
+        System.out.println("Default Constructor");
+    }
+
+    Student(int m, String n){
+        marks = m;
+        name = n;
+
+        System.out.println("Parameterized Constructor");
+    }
+}
+
+public class ExampleOnConstrucor {
+
+    public static void main(String[] args) {
+        Student obj = new Student();
+        Student obj1 = new Student(80, "Leena");
+    }
+    
+}
