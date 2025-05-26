@@ -1,0 +1,23 @@
+public class ExampleOnPolymorphism{
+
+    public static void Sum(int a, int b){
+        System.out.println(a + b);
+    }
+
+    public static int Sum(int a, int b, int c){
+        return a + b + c;
+    }
+
+    public static double Sum(double a, double b){
+        return a + b;
+    }
+
+    public static void main(String[] args){
+
+        Sum(5, 6);
+
+        System.out.println(Sum(5, 6, 7));
+
+        System.out.println(Sum(5.1, 4.2));
+    }
+}
