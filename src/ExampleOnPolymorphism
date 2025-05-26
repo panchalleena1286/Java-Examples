@@ -12,6 +12,10 @@ public class ExampleOnPolymorphism{
         return a + b;
     }
 
+    public static double sum(int a, double b){
+        return a + b;
+    }
+
     public static void main(String[] args){
 
         sum(5, 6);
