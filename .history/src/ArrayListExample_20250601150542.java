@@ -17,7 +17,7 @@ public class ArrayListExample {
         int n = arr.size();
         for(int i=0; i<n; i++)
         {
-            System.out.print(arr.get(i) + " ");
+            System.out.print(arr.get(i));
         }
         
     }
