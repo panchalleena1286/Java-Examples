@@ -15,7 +15,7 @@ public class ExampleOnArrayListOfArrayList {
 
        System.out.println(ar);
 
-       row.remove(1);
+       row.remove(2);
 
        ar.add(new ArrayList<>(row));
 
