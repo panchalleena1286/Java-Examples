@@ -43,6 +43,9 @@ public class ExampleOnFrequencyArray {
                 System.out.println(i + " --->" + fre[i]);
             }
         }
+
+
+
     }
 
     

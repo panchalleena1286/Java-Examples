@@ -14,7 +14,7 @@ public class ExampleOnFrequencyArray {
             arr[i] = sc.nextInt();
         }
 
-        //To find maximum for create frequency array of that maximum size
+        //To find maximum for create frequency array on the maximum size of an array
         int maximum = arr[0];
 
         for(int i=1; i<n; i++)
@@ -25,24 +25,7 @@ public class ExampleOnFrequencyArray {
             }
         }
 
-        int size = maximum + 1;
 
-        //Create Frequency array
-        int fre[] = new int[size];
-
-        for(int i=0; i<n; i++)
-        {
-            fre[arr[i]]++;
-        }
-
-        //print frequency 
-
-        for(int i=0; i<size; i++)
-        {
-            if (fre[i] > 0) {
-                System.out.println(i + " --->" + fre[i]);
-            }
-        }
     }
 
     

@@ -40,9 +40,12 @@ public class ExampleOnFrequencyArray {
         for(int i=0; i<size; i++)
         {
             if (fre[i] > 0) {
-                System.out.println(i + " --->" + fre[i]);
+                System.out.println(fre[i]);
             }
         }
+
+
+
     }
 
     

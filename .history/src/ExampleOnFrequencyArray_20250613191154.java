@@ -25,24 +25,11 @@ public class ExampleOnFrequencyArray {
             }
         }
 
-        int size = maximum + 1;
+        int fre[] = new int[maximum];
 
-        //Create Frequency array
-        int fre[] = new int[size];
+        
 
-        for(int i=0; i<n; i++)
-        {
-            fre[arr[i]]++;
-        }
 
-        //print frequency 
-
-        for(int i=0; i<size; i++)
-        {
-            if (fre[i] > 0) {
-                System.out.println(i + " --->" + fre[i]);
-            }
-        }
     }
 
     
