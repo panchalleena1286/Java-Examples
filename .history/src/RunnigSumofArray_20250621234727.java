@@ -15,11 +15,7 @@ public class RunnigSumofArray {
             perfix[i] = sum;
         }
 
-        for(int i=0; i<perfix.length; i++){
-
-            System.out.print(perfix[i]);
-        }
-       
+        System.out.println(perfix);
 
 
 
