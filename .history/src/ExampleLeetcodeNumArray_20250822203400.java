@@ -18,12 +18,6 @@ public class ExampleLeetcodeNumArray {
     
     public int sumRange(int left, int right) {
         
-        if (left == 0) {
-            return prefix[right];
-        }
-        else{
-            return prefix[right] - prefix[left-1];
-        }
     }
 
     public static void main(String[] args) {

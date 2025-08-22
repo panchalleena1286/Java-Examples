@@ -2,7 +2,7 @@ public class ExampleLeetcodeNumArray {
     
     int prefix[];
 
-    public ExampleLeetcodeNumArray(int[] nums) {
+    public NumArray(int[] nums) {
         int sum =0;
 
         int n = nums.length;
@@ -18,19 +18,13 @@ public class ExampleLeetcodeNumArray {
     
     public int sumRange(int left, int right) {
         
-        if (left == 0) {
-            return prefix[right];
-        }
-        else{
-            return prefix[right] - prefix[left-1];
-        }
     }
 
     public static void main(String[] args) {
         
         int[] nums = {-2, 0, 3, -5, 2, -1};
 
-        ExampleLeetcodeNumArray numArray = new ExampleLeetcodeNumArray(nums);
+        NumArray numArray = new NumArray(nums);
 
         System.out.println(numArray.sumRange(0, 2)); // 1
         System.out.println(numArray.sumRange(2, 5)); // -1
