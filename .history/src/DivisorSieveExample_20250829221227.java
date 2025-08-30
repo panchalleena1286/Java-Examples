@@ -4,26 +4,15 @@ public class DivisorSieveExample {
         int n =11;
 
         int countDivisor[] = new int[n];
-        int sumDivisor[] = new int[n];
+        int sunDivisor[] = new int[n];
 
         for(int i=1; i<n; i++)
         {
             for(int j=i; j<n; j+=i)
             {
                 countDivisor[j]++;
-                sumDivisor[j] += i;
+                sunDivisor[j] += i;
             }
-        }
-
-        for(int i=1; i<n; i++)
-        {
-            System.err.println(countDivisor[i]);
-        }
-
-        System.err.println();
-        for(int i=1; i<n; i++)
-        {
-            System.err.println(sumDivisor[i]);
         }
     }
     
