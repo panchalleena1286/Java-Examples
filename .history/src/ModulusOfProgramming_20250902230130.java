@@ -8,8 +8,7 @@ public class ModulusOfProgramming {
         int sum =0;
 
         for(int i=0; i<=N; i++){
-            //sum = sum + i;
-            sum = ((sum%MOD + sum%MOD)%MOD);
+            sum = sum + i;
         }
 
         System.out.println(sum);
