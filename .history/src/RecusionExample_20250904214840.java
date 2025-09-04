@@ -5,8 +5,9 @@ public class RecusionExample {
 
         System.out.print(i);
 
-        recr(i+1, n);
-        
+        recr(i++, n);
+
+        System.out.println();
         System.out.print(i);
     }
     public static void main(String[] args) {
