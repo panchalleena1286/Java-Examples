@@ -1,0 +1,34 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class Leetcode39 {
+
+    List<List<Integer>> answer = new ArrayList<>();
+        List<Integer> currentSeq = new ArrayList<>();
+
+    public List<List<Integer>> recur(int target, int[] candidates, int start){
+
+        if (target == 0) {
+            answer.add(new ArrayList<Integer>(currentSeq));
+            return;
+        }
+
+        for(int i = start; i<candidates.length; i++){
+            if (target >= candidates[i]) {
+                currentSeq.add(candidates[i]);
+                recur(target-candidates[i], candidates, i);
+                currentSeq.remove(currentSeq.size()-1);
+            }
+        }
+    }
+    
+    public static void main(String[] args) {
+        int candidates[] = {2, 3, 5};
+        Leetcode39 solver = new Leetcode39();
+        int target = 8;
+
+        List<List<Integer>> res = solver.recur(target, candidates, 0);
+        System.out.println(res);
+
+    }
+}
