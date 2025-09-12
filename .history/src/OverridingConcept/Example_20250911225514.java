@@ -2,9 +2,9 @@ package OverridingConcept;
 
 // #Method Oveeriding 
 //Modifying a super class method in the sub class is called method overriding. Using method overriding,
-//we can change super class method according to the requirements of sub class.
+ //we can change super class method according to the requirements of sub class.
 
-//Static Methods - We can not override static methods. 
+ 
 
 public class Example {
     // Case 1: Normal Overriding (Works Fine)
