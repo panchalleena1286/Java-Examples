@@ -17,9 +17,7 @@ public class PrimeExample {
         int n = 13; //
         for(int i=0; i<=n; i++){
         if (isPrime(i)) {
-
                 System.out.print(i + " ");
-                
             }
     }
     }
