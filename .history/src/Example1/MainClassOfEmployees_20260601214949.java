@@ -12,10 +12,8 @@ public class MainClassOfEmployees {
             new Employees("AAyu", 3, "Finance")
         );
 
-    //    List<String> names =  employe.stream().map(Employees::getName).toList();
+       List<String> names =  employe.stream().map(Employees::getName).toList();
 
-    //     System.out.println(names);
-
-    
+        System.out.println(names);
     }
 }
