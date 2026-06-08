@@ -17,9 +17,10 @@ public class MainClassOfEmployees {
     //     System.out.println(names);
    
 
-            long count = employe.stream()
+    long count = employe.stream()
                       .count();
-            System.out.println(count);
+
+                      
 
 
 
